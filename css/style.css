@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body{
+  background-color: #1e202b;
+  overflow-x: hidden;
+  width: 100%;
+
+}
+
+#header .nav-item .nav-link {
+  color: white;
+  padding: 2px 20px;
+  margin: 0 10px;
+  border: 2px solid transparent;
+  transition: 0.4s;
+}
+#header .nav-item .nav-link:hover,
+#header .nav-item .active {
+  color: #009ad8;
+  border: 2px solid #009ad8;
+  border-radius: 20px;
+}
+
+#pic .search input {
+  box-shadow: 0 0 transparent;
+  border: transparent;
+  color: white;
+  height: 60px;
+  border-radius: 30px;
+}
+
+#pic .search input::placeholder {
+  color: #999;
+}
+
+#pic .search {
+  position: absolute;
+  top: 10%;
+  width: 85%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#pic .search button {
+  position: absolute;
+  top: 7%;
+  right: 0.5%;
+  border: 0;
+  background-color: #009ad8;
+  color: white;
+  font-size: 18px;
+  padding: 12px 40px;
+  border-radius: 30px;
+}
+
+.main-table {
+  margin-top: -17%;
+}
+
+.final .search input {
+  box-shadow: 0 0 transparent;
+  border: transparent;
+  color: white;
+  height: 60px;
+  border-radius: 30px;
+  font-size: 14px !important;
+}
+
+.final .search input::placeholder {
+  color: #999;
+}
+
+.final .search button {
+  position: absolute;
+  top: 4%;
+  right: 0.5%;
+  border: 0;
+  background-color: #009ad8;
+  color: white;
+  font-size: 16px;
+  padding: 12.5px 20px;
+  border-radius: 30px;
+}
+
+
+.final .icon span a{
+  height: 40px;
+  width: 40px;
+  background-color: rgba(0, 0, 0, 0.483);
+   margin: 0 10px;
+  border-radius: 50%;
+  transition: .5s;
+}
+
+.final .icon span a i{
+font-size: 18px;
+color: #009ad8;
+transition: .5s;
+}
+.final .icon span a:hover{
+background-color: #009AD8;
+}
+
+.final .icon span a:hover  i{
+color: white;
+}
+
+
+
+
+
+
+
+#card1{
+  overflow: hidden;
+  border-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-top-left-radius: 5px !important;
+  border-bottom-left-radius: 5px !important;
+  
+  height: 100%;
+}
+
+#card3{
+  overflow: hidden;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
